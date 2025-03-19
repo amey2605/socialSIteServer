@@ -39,5 +39,6 @@ public class userService {
     }
     public void deletePostById(ObjectId id){
         userRepo.deleteById(id);
+        System.out.print("deleted post");
     }
 }
