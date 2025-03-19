@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Apply CORS to all endpoints
-                        .allowedOrigins("http://localhost:4200") // Allow Angular frontend
+                        .allowedOrigins("http://localhost:4200", "https://socialsiteserver-1.onrender.com","https://socialsiteangular.web.app")// Allow Angular frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
                         .allowedHeaders("*")
                         .allowCredentials(true);

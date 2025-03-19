@@ -17,7 +17,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/product")
 @Component
-@CrossOrigin(origins = {"http://localhost:4200", "https://socialsiteserver-1.onrender.com"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://socialsiteserver-1.onrender.com","https://socialsiteangular.web.app"})
 
 public class product {
 
