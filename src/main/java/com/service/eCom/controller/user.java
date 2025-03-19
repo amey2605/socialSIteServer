@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/user")
 @Component
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://socialsiteserver-1.onrender.com"})
 public class user {
 
     @Autowired
